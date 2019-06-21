@@ -4,10 +4,10 @@
     <a class="navbar-brand" href="#">Navbar</a>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <router-link class="nav-link" to="/articles" exactActiveClass="text-white" >Accueil</router-link>
+          <router-link class="nav-link" active-class="active" to="/articles" >Accueil</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/sports" exactActiveClass="text-white" >Sports</router-link>
+          <router-link class="nav-link" active-class="active" to="/sports" >Sports</router-link>
         </li>
       </ul>
   </nav>
