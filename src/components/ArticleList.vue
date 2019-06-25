@@ -5,7 +5,7 @@
     <router-link to="/article/001" >Article 001 Lorem posum</router-link>
   </li>
   <li class="list-group-item">
-    <router-link to="/article/002" >Article 002 Lorem posum</router-link>
+    <ArticleSmall></ArticleSmall>
   </li>
   <li class="list-group-item">
     <router-link to="/article/003" >Article 003 Lorem posum</router-link>
@@ -45,8 +45,13 @@
 </template>
 
 <script>
+import ArticleSmall from '../components/ArticleSmall.vue';
+
 export default {
-  name: 'ArticleList'
+  name: 'ArticleList',
+  components:  {
+    ArticleSmall
+  }
 }
 </script>
 
