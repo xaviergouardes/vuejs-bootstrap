@@ -1,9 +1,11 @@
 <template>
 
   <nav class="navbar navbar-light bg-light navbar-expand-sm ">
-    <a class="navbar-brand" href="#">
+
+    <router-link class="navbar-brand" active-class="active" to="/" >
       <img src="/icons8-puzzle.svg">
-    </a>
+    </router-link>
+
     <ul class="navbar-nav">
       <li class="nav-item">
         <router-link class="nav-link" active-class="active" to="/articles" >Accueil</router-link>
