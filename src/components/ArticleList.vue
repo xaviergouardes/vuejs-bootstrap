@@ -5,7 +5,7 @@
     <router-link to="/article/001" >Article 001 Lorem posum</router-link>
   </li>
   <li class="list-group-item">
-    <ArticleSmall></ArticleSmall>
+    <ArticleSmall v-bind:article="article"></ArticleSmall>
   </li>
   <li class="list-group-item">
     <router-link to="/article/003" >Article 003 Lorem posum</router-link>
@@ -51,6 +51,11 @@ export default {
   name: 'ArticleList',
   components:  {
     ArticleSmall
+  },
+  data: function () {
+    return {
+      article: {id: "002", text: "Titre de l'article 002"}
+    }
   }
 }
 </script>

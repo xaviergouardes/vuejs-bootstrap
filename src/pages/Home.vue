@@ -2,6 +2,7 @@
 
 <div>
   <Header />
+
   <div class="container-fluid">
     <div class="row justify-content-md-center">
       <div class="col">
@@ -9,6 +10,7 @@
       </div>
     </div>
   </div>
+
   <Footer />
 </div>
 
