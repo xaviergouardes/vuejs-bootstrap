@@ -2,7 +2,13 @@
 
 <div>
   <Header />
-  <router-view />
+  <div class="container-fluid">
+    <div class="row justify-content-md-center">
+      <div class="col">
+        <router-view />
+      </div>
+    </div>
+  </div>
   <Footer />
 </div>
 
