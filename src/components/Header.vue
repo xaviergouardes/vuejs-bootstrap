@@ -3,7 +3,7 @@
   <nav class="navbar navbar-light bg-light navbar-expand-sm ">
 
     <router-link class="navbar-brand" active-class="active" to="/" >
-      <img src="/icons8-puzzle.svg">
+      <img src="/asset/logo-brand.svg" class="logo-brand">
     </router-link>
 
     <ul class="navbar-nav">
@@ -25,5 +25,7 @@ export default {
 </script>
 
 <style scoped>
-
+.logo-brand {
+  width: 50px;height: 50px;
+}
 </style>

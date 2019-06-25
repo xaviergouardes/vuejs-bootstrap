@@ -1,5 +1,6 @@
 const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = {
@@ -25,7 +26,10 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(['dist'], {exclude:  ['index.html']}),
-    new VueLoaderPlugin()
+    new VueLoaderPlugin(),
+    new CopyWebpackPlugin([
+      { from: path.join(__dirname, "./asset/"), to: path.join(__dirname, "./dist/asset") }
+    ])
   ],
   optimization: {
     usedExports: true

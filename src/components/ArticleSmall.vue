@@ -12,7 +12,8 @@
   </div>
 
   <div class="card-footer text-muted">
-     <img src="/icons8-bookmark.svg" style="max-width: 25px">
+     <img src="/asset/bookmark.svg" style="max-width: 25px; width: 20px;">
+    <img src="/asset/bookmark-border.svg" style="max-width: 25px; width: 20px;">
   </div>
   
 </div>
