@@ -18,8 +18,9 @@ export default new Router({
           component: ArticleList
         },
         {
-          path: 'article/:id',
-          component: Article
+          path: 'article/:idArticle',
+          component: Article,
+          props: true
       }]
     },
     { path: '/sports', name: 'Sports', component: Sports }

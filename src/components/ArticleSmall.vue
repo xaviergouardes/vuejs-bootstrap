@@ -2,7 +2,7 @@
 
 <div class="card mb-3" >
  
-  <div class="card-header" :style="'background-image: url(' + url + '); height: 100px;'"></div> 
+  <div class="card-header" :style="'background-image: url(' + article.url + '); height: 100px;'"></div> 
 
   <div class="card-body">
       <h5 class="card-title"> Article n°{{ article.id }} </h5>
@@ -24,12 +24,7 @@
 <script>
 export default {
   name: 'ArticleSmall',
-  props: ['article'],
-  data: function() {
-    return {
-      url:  'https://loremflickr.com/250/125/city?random=' + this.article.id
-    }
-  }
+  props: ['article']
 }
 </script>
 
