@@ -30,7 +30,8 @@
 </template>
 
 <script>
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ArticlesServices from '../services/articles.services';
 
 import MenuNav from '../components/MenuNav.vue';
 import Header from '../components/Header.vue';
@@ -41,6 +42,11 @@ export default {
   name: 'Home',
   components: {
     Header, MenuNav, Footer, Aside
+  },
+  created() {
+    console.log(ArticlesServices.getArticles())
+    console.log("=============");
+    console.log(ArticlesServices.getArticlesById('003'))
   }
 }
 </script>
