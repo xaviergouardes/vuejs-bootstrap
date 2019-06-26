@@ -42,11 +42,6 @@ export default {
   name: 'Home',
   components: {
     Header, MenuNav, Footer, Aside
-  },
-  created() {
-    console.log(ArticlesServices.getArticles())
-    console.log("=============");
-    console.log(ArticlesServices.getArticlesById('003'))
   }
 }
 </script>
