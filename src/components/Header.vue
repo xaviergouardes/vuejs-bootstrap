@@ -13,10 +13,18 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link class="nav-link" active-class="active" to="/articles/voyage" >Voyage</router-link>
+            <router-link  class="nav-link" 
+                          active-class="active" 
+                          to="/articles/voyage" 
+                          data-toggle="collapse" 
+                          data-target=".navbar-collapse.show">Voyage</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" active-class="active" to="/articles/sport" >Sports</router-link>
+            <router-link  class="nav-link" 
+                          active-class="active" 
+                          to="/articles/sport"
+                          data-toggle="collapse" 
+                          data-target=".navbar-collapse.show" >Sports</router-link>
           </li>
         </ul>
     </div>
