@@ -2,7 +2,7 @@
 
 <ul class="list-group">
 
-  <li class="list-group-item" v-for="article in articlesByCategory" :key="article.id" >
+  <li class="list-group-item border-0 p-0" v-for="article in articlesByCategory" :key="article.id" >
     <ArticleSmall v-bind:article="article"></ArticleSmall>
   </li>
 
