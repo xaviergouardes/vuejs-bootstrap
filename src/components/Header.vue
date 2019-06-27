@@ -1,21 +1,27 @@
 <template>
 
-  <nav class="navbar navbar-light bg-light navbar-expand-sm ">
+  <nav class="navbar navbar-light bg-light navbar-expand-sm fixed-top">
 
     <router-link class="navbar-brand" active-class="active" to="/" >
       <img src="/asset/logo-brand.svg" class="logo-brand">
+      <span>Le Journal</span>
     </router-link>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <router-link class="nav-link" active-class="active" to="/articles" >Accueil</router-link>
-      </li>
-      <li class="nav-item">
-        <router-link class="nav-link" active-class="active" to="/sports" >Sports</router-link>
-      </li>
-    </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <router-link class="nav-link" active-class="active" to="/articles" >Accueil</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" active-class="active" to="/sports" >Sports</router-link>
+          </li>
+        </ul>
+    </div>
+
   </nav>
-
 </template>
 
 <script>

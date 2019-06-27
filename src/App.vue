@@ -17,5 +17,8 @@ export default {
 </script>
 
 <style>
+body {
+  padding-top: 76px; /* Pour que le navbar fixed ne cache pas le contenu */
+}
 
 </style>
