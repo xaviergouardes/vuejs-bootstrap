@@ -9,13 +9,14 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    { path: '/', redirect: '/articles' },
+    { path: '/', redirect: '/articles/sport' },
     { path: '/',
       component: Home,
       children: [
         {
-          path: 'articles',
-          component: ArticleList
+          path: 'articles/:category',
+          component: ArticleList,
+          props: true
         },
         {
           path: 'article/:idArticle',

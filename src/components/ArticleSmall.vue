@@ -5,9 +5,11 @@
   <div class="card-header" :style="'background-image: url(' + article.url + '); height: 100px;'"></div> 
 
   <div class="card-body">
-      <h5 class="card-title"> Article n°{{ article.id }} </h5>
+      <h5 class="card-title">{{ article.category | capitalizeFirstLetter }} : Article n°{{ article.id }} </h5>
       <p class="card-text">{{ article.text }}</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <p class="card-text">
+        <small class="text-muted">{{ article.category | capitalizeFirstLetter }} - Last updated 3 mins ago</small>
+      </p>
       <router-link :to="{ path: '/article/' + this.article.id }" class="card-link">En savoir plus ...</router-link>
   </div>
 
@@ -24,7 +26,10 @@
 <script>
 export default {
   name: 'ArticleSmall',
-  props: ['article']
+  props: ['article'],
+  filters: {
+    capitalizeFirstLetter: function (text) { return text.charAt(0).toUpperCase() + text.slice(1); }
+  }
 }
 </script>
 

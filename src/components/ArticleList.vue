@@ -2,7 +2,7 @@
 
 <ul class="list-group">
 
-  <li class="list-group-item" v-for="article in this.articles" :key="article.id" >
+  <li class="list-group-item" v-for="article in articlesByCategory" :key="article.id" >
     <ArticleSmall v-bind:article="article"></ArticleSmall>
   </li>
 
@@ -16,6 +16,7 @@ import ArticlesServices from '../services/articles.services';
 
 export default {
   name: 'ArticleList',
+  props: ['category'],
   components:  {
     ArticleSmall
   },
@@ -26,6 +27,11 @@ export default {
   },
   mounted: function () {
     this.articles = ArticlesServices.getArticles()
+  },
+  computed: {
+    articlesByCategory: function()  {
+      return this.articles.filter( (article) => { return (article.category === this.category); })
+     }
   }
 
 }
