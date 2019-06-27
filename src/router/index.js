@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '../pages/Home.vue'
-import Sports from '../pages/Sports.vue'
 import Article from '../components/Article.vue'
 import ArticleList from '../components/ArticleList.vue'
 
@@ -23,7 +22,6 @@ export default new Router({
           component: Article,
           props: true
       }]
-    },
-    { path: '/sports', name: 'Sports', component: Sports }
+    }
   ]
 })

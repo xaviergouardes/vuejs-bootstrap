@@ -42,7 +42,13 @@ export default {
     this.article = ArticlesServices.getArticlesById(this.idArticle)
   },
   filters: {
-    capitalizeFirstLetter: function (text) { return text.charAt(0).toUpperCase() + text.slice(1); }
+    capitalizeFirstLetter: function (text) { 
+        if (text != undefined) {
+          return text.charAt(0).toUpperCase() + text.slice(1); 
+        } else {
+          return ""
+        }
+      }
   }
 }
 </script>
