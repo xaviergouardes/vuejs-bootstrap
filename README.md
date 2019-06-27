@@ -36,4 +36,22 @@ withbootstrap/src/main.js:
 ```
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+```  
+
+### Modifier les exclusions pour les fichiers css
+A creuser
+```
+  module: {
+    rules: [
+      { test: /\.vue$/, exclude: /node_modules/, use: 'vue-loader' },
+      { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
+      { 
+        test: /\.css$/, 
+        // exclude: /node_modules/, 
+        use: ['style-loader','css-loader'] 
+      },
+      { test: /\.(png|svg|jpg|gif)$/, exclude: /node_modules/, use: ['file-loader']}
+    ],
+
+  },
 ```
