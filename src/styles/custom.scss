@@ -1,0 +1,25 @@
+
+body {
+    padding-top: 76px; 
+}
+
+@import "bootstrap/scss/bootstrap.scss";
+
+
+html {font-size: 62.5% }
+
+@include media-breakpoint-up(sm) {
+    html {font-size: 80% }
+}
+
+@include media-breakpoint-up(md) {
+    html {font-size: 100% }
+}
+
+@include media-breakpoint-up(lg) {
+    html {font-size: 120% }
+}
+
+@include media-breakpoint-up(xl) {
+    html {font-size: 140%}
+}

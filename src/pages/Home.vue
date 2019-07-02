@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import ArticlesServices from '../services/articles.services';
 
 import Header from '../components/Header.vue';
@@ -31,3 +31,4 @@ export default {
   }
 }
 </script>
+

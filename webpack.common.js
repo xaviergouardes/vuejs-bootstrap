@@ -16,9 +16,10 @@ module.exports = {
       { test: /\.vue$/, exclude: /node_modules/, use: 'vue-loader' },
       { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
       { 
-        test: /\.css$/, 
-        // exclude: /node_modules/, 
-        use: ['style-loader','css-loader'] 
+        test: /\.css$/, exclude: /node_modules/, use: ['style-loader','css-loader'] 
+      },
+      { 
+        test: /\.scss$/, /* exclude: /node_modules/, */ use: ['vue-style-loader','css-loader', 'sass-loader'] 
       },
       { test: /\.(png|svg|jpg|gif)$/, exclude: /node_modules/, use: ['file-loader']}
     ],
