@@ -5,6 +5,13 @@
     <router-link class="navbar-brand" active-class="active" to="/" >
       <img src="/asset/logo-brand.svg" class="logo-brand">
       <span>Le Journal</span>
+      <span class="navbar-text">
+        <span class="d-block d-sm-none">XS -576px</span>
+        <span class="d-none d-sm-block d-md-none">SM +576px</span>
+        <span class="d-none d-md-block d-lg-none">MD +768px</span>
+        <span class="d-none d-lg-block d-xl-none">LG +992px</span>
+        <span class="d-none d-xl-block">XL +1200px</span>
+      </span>
     </router-link>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
