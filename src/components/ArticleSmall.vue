@@ -36,23 +36,9 @@ export default {
 <style scoped lang="scss" >
 
 @import "bootstrap/scss/bootstrap.scss";
-
-.card {border: 5px #1eff00 solid; }
-
-@include media-breakpoint-up(sm) {
-    .card {border: 5px rgb(219, 108, 43) solid;}
+.card {
+  @include media-breakpoint-up(md) {
+    max-width: 700px;
+  }
 }
-
-@include media-breakpoint-up(md) {
-    .card {border: 5px yellow solid; max-width: 500px;}
-}
-
-@include media-breakpoint-up(lg) {
-    .card {border: 5px burlywood solid; max-width: 500px;}
-}
-
-@include media-breakpoint-up(xl) {
-    .card {border: 5px pink solid; max-width: 500px;}
-}
-
 </style>

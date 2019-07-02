@@ -1,5 +1,13 @@
 <template>
 
+<div class="card-columns">
+  <ArticleSmall 
+    v-for="article in articlesByCategory"
+    v-bind:article="article">
+  </ArticleSmall>
+</div>
+
+<!--
 <ul class="list-group">
 
   <li class="list-group-item border-0 p-0" v-for="article in articlesByCategory" :key="article.id" >
@@ -7,6 +15,7 @@
   </li>
 
 </ul>
+-->
 
 </template>
 
