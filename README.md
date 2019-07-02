@@ -4,6 +4,7 @@ Comment intégrer bootstrap dans une application VueJS ?
 # Ressources Web
 - https://travishorn.com/adding-bootstrap-to-a-vue-cli-project-98c2a30e0ed0
 - https://material.io/tools/icons/?icon=insert_photo&style=baseline => Bibliothèque d'icones svg
+- http://agiwi.com/outils-et-techniques-de-facilitation/ => exemple de site dont on peut s'inspirer
 
 # Grandes etapes
 ### Installer VueJS - CLI
