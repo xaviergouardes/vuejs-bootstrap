@@ -1,6 +1,6 @@
 <template>
 
-  <nav class="navbar navbar-light bg-light navbar-expand-sm fixed-top">
+  <nav class="navbar navbar-light bg-light navbar-expand-sm sticky-top">
 
     <router-link class="navbar-brand" active-class="active" to="/" >
       <img src="/asset/logo-brand.svg" class="logo-brand">
