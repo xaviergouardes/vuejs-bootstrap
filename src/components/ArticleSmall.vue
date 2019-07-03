@@ -1,11 +1,17 @@
 <template>
 
 <div class="card mb-3" >
- 
-  <div class="card-header" :style="'background-image: url(' + article.url + '); height: 100px;'"></div> 
+
+  <img :src="article.url" class="card-img-top" /> 
+
+  <div class="card-img-overlay p-0 m-0 h-25">
+    <div class="card-title card-title-opacity p-2" >
+      <h5>{{ article.category | capitalizeFirstLetter }} : Article n°{{ article.id }}</h5>
+    </div>
+  </div>
 
   <div class="card-body">
-      <h5 class="card-title">{{ article.category | capitalizeFirstLetter }} : Article n°{{ article.id }} </h5>
+      <!-- h5 class="card-title">{{ article.category | capitalizeFirstLetter }} : Article n°{{ article.id }} </h5 -->
       <p class="card-text">{{ article.text }}</p>
       <p class="card-text">
         <small class="text-muted">{{ article.category | capitalizeFirstLetter }} - Last updated 3 mins ago</small>
@@ -40,5 +46,11 @@ export default {
   @include media-breakpoint-up(md) {
     max-width: 700px;
   }
+}
+
+.card-title-opacity {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.1));
 }
 </style>
