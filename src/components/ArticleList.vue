@@ -1,6 +1,7 @@
 <template>
 
-<div class="card-columns">
+<!-- div class="card-columns" -->
+<div>
   <ArticleSmall 
     v-for="article in articlesByCategory"
     v-bind:article="article">
