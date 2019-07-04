@@ -1,6 +1,6 @@
 <template>
 <div class="row no-gutters">
-  <div class="card mb-3" >
+  <div class="card mb-3 pt-2" >
 
     <div class="row no-gutters">
       <div class="col-4">
@@ -15,7 +15,7 @@
 
       <div class="col-8">
         <div class="card-body pr-1 pl-2 py-0">
-            <h5 class="card-title card-title-opacity ">{{ article.category | capitalizeFirstLetter }} : Article n°{{ article.id }} </h5>
+            <h5 class="card-title">{{ article.category | capitalizeFirstLetter }} : Article n°{{ article.id }} </h5>
             <p class="card-text">{{ article.text }}</p>
             <p class="card-text">
               <small class="text-muted">{{ article.category | capitalizeFirstLetter }} - Last updated 3 mins ago</small>
@@ -27,9 +27,11 @@
 
     <div class="row no-gutters">
       <div class="col-12">
-        <div class="card-footer text-muted p-0">
+
+        <div class="card-footer text-muted p-1 d-flex flex-row" style="background-color: white ">
           <img src="/asset/bookmark.svg" style="max-width: 25px; width: 20px;">
           <img src="/asset/bookmark-border.svg" style="max-width: 25px; width: 20px;">
+          <img src="/asset/baseline-comment-24px.svg" class="ml-auto" style="max-width: 25px; width: 20px;">
         </div>
       </div>
     </div>

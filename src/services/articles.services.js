@@ -5,67 +5,67 @@ class ArticlesServices {
             {
                 id: '001', 
                 text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis.',
-                url: 'https://loremflickr.com/250/125/city?random=001',
+                url: 'https://loremflickr.com/250/150/city?random=001',
                 category: "voyage"
             },
             {
                 id: '002', 
                 text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis.',
-                url: 'https://loremflickr.com/250/125/city?random=002',
+                url: 'https://loremflickr.com/250/150/city?random=002',
                 category: "voyage"
             },
             {
                 id: '003', 
                 text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis.',
-                url: 'https://loremflickr.com/250/125/city?random=003',
+                url: 'https://loremflickr.com/250/150/city?random=003',
                 category: "voyage"
             },
             {
                 id: '004', 
                 text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis.',
-                url: 'https://loremflickr.com/250/125/city?random=004',
+                url: 'https://loremflickr.com/250/150/city?random=004',
                 category: "voyage"
             },
             {
                 id: '005', 
                 text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis.',
-                url: 'https://loremflickr.com/250/125/city?random=005',
+                url: 'https://loremflickr.com/250/150/city?random=005',
                 category: "voyage"
             },
             {
                 id: '006', 
                 text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis.',
-                url: 'https://loremflickr.com/250/125/city?random=006',
+                url: 'https://loremflickr.com/250/150/city?random=006',
                 category: "voyage"
             },
             {
                 id: '007', 
                 text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis.',
-                url: 'https://loremflickr.com/250/125/city?random=007',
+                url: 'https://loremflickr.com/250/150/city?random=007',
                 category: "voyage"
             },
             {
                 id: '008', 
                 text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis.',
-                url: 'https://loremflickr.com/250/125/city?random=008',
+                url: 'https://loremflickr.com/250/150/city?random=008',
                 category: "voyage"
             },
             {
                 id: '009', 
                 text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis.',
-                url: 'https://loremflickr.com/250/125/sport?random=009',
+                url: 'https://loremflickr.com/250/150/sport?random=009',
                 category: "sport"
             },
             {
                 id: '010', 
                 text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis.',
-                url: 'https://loremflickr.com/250/125/sport?random=010',
+                url: 'https://loremflickr.com/250/150/sport?random=010',
                 category: "sport"
             },
             {
                 id: '011', 
                 text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis.',
-                url: 'https://loremflickr.com/250/125/sport?random=011',
+                url: 'https://loremflickr.com/250/150/sport?random=011',
                 category: "sport"
             }
 

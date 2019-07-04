@@ -3,7 +3,7 @@
 <div>
   <Header />
 
-  <div class="container-fluid">
+  <div class="container-fluid bg-light">
     <div class="row justify-content-md-center">
       <div class="col">
         <router-view />
